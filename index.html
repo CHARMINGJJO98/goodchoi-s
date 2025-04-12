@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>自己紹介ホームページ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>自己紹介ホームページ</h1>
+    <p>Welcome to my interactive self-introduction page!</p>
+  </header>
+  
+  <main>
+    <!-- セクション1: 自己紹介（ヨコク） -->
+    <section class="card">
+      <div class="card-header" onclick="toggleCard(this)">
+        <h2>自己紹介（ヨコク）</h2>
+        <input type="checkbox" class="complete-checkbox" title="確認済みにする">
+      </div>
+      <div class="card-content">
+        <p>
+          私の名前はチェ・ミョンジョです。立命館大学で経営学を学びながら、多くの人と出会い、共に夢を実現する社会を目指しています。
+        </p>
+      </div>
+    </section>
+    
+    <!-- セクション2: 活動内容 -->
+    <section class="card">
+      <div class="card-header" onclick="toggleCard(this)">
+        <h2>活動内容</h2>
+        <input type="checkbox" class="complete-checkbox" title="確認済みにする">
+      </div>
+      <div class="card-content">
+        <p>
+          国際交流活動、学生自治会、写真サークルの立ち上げなどに積極的に参加し、皆が自分の可能性を最大限に発揮できる場を提供しています。
+        </p>
+      </div>
+    </section>
+    
+    <!-- セクション3: ビジョン -->
+    <section class="card">
+      <div class="card-header" onclick="toggleCard(this)">
+        <h2>ビジョン</h2>
+        <input type="checkbox" class="complete-checkbox" title="確認済みにする">
+      </div>
+      <div class="card-content">
+        <p>
+          「全員優勝社会」の実現を目指し、人と人とのつながりを強化するプラットフォームを構築して、誰もが夢を追い続けられる社会を作り上げたいです。
+        </p>
+      </div>
+    </section>
+    
+  </main>
+  
+  <footer>
+    <p>© 2025 My Self-Introduction Page | <a href="https://github.com/yourusername/repository" target="_blank">GitHub Repository</a></p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
